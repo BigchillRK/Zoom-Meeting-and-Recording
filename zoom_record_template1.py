@@ -22,7 +22,7 @@
 ## Not liable if this causes any issues.
 
 # importing libraries
-import pyautogui
+import pyautogui 
 import time
 
 
@@ -82,14 +82,14 @@ pyautogui.hotkey('win','g')
 
 
 #### recording time amount
-## however long you want, enter the time here in seconds, i.e. 30 minutes is 60*30 = 1800 seconds
+## however long you want, enter the time here in seconds, e.g. 30 minutes is 60*30 = 1800 seconds
 ## in windows game bar the default setting for time limit for recording is 2 hours,
 ## make sure to change this as you need
 time.sleep(25)
 
 
 ## ending screen recording
-#pyautogui.hotkey('win','alt','r')
+pyautogui.hotkey('win','alt','r')
 time.sleep(2)
 ## By default, screen captures are sent to a folder called captures in "videos" in "this PC"
 

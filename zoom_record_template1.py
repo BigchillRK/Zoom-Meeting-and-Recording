@@ -20,6 +20,7 @@
 
 ## Created by Rohit Kannachel
 ## Not liable if this causes any issues.
+## thank you to Tanushi De Silva for giving me the inspiration to make this
 
 # importing libraries
 import pyautogui 

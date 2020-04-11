@@ -64,7 +64,7 @@ pyautogui.press('enter',interval=1)
 password = 'password'
 
 #pyautogui.write(password)
-
+#pyautogui.press('enter',interval = 10)
 ##### IF YOUR MEETING HAS NO PASSWORD PLEASE LEAVE THIS SECTION AS IS AND DONT UNCOMMENT
 
 

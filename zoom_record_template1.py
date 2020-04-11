@@ -43,9 +43,13 @@ pyautogui.press('enter',interval=0.5)
 
 #this part is important and may need to be altered to your needs according
 #this part simulates clicking join meeting, entering meeting id and pressing enter to join
-##x and y coordinates are pixel coordinates to click the join meeting button on your screen when zoom comes up, x increases as you go --> and y increases as you go down
-## with a little trial and error you can match the coordinates for your system, this was done for a 1920x1080 (1080p) screen
-pyautogui.click(x=830,y=430)
+##Make sure the joinButton.png file is located in the same folder as the python file or else it will not work
+##this tells the script where to click to join the meeting
+
+x,y = pyautogui.locateCenterOnScreen('joinButton.png')
+pyautogui.click(x,y)
+
+
 pyautogui.press('enter',interval=1)
 ## the interval of 1 second is important, if not there, then the meeting id will not be inputted
 pyautogui.write(meet_id)
@@ -85,7 +89,7 @@ time.sleep(25)
 
 
 ## ending screen recording
-pyautogui.hotkey('win','alt','r')
+#pyautogui.hotkey('win','alt','r')
 time.sleep(2)
 ## By default, screen captures are sent to a folder called captures in "videos" in "this PC"
 

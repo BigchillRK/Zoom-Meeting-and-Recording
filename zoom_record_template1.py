@@ -42,6 +42,10 @@ pyautogui.press('win',interval=0.1)
 pyautogui.write('zoom')
 pyautogui.press('enter',interval=0.5)
 
+
+#time delay to factor for zoom app to load up, good buffer is like 10 sec but its case specific
+time.sleep(10)
+
 #this part is important and may need to be altered to your needs according
 #this part simulates clicking join meeting, entering meeting id and pressing enter to join
 ##Make sure the joinButton.png file is located in the same folder as the python file or else it will not work

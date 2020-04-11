@@ -30,7 +30,7 @@ import time
 
 #######################################################################################
 #Enter the meeting id as a string here *important that it is in string format
-meet_id = '5309464011'
+meet_id = '123456789'
 #esc clicked to ensure that the win key will open up correctly in the next step
 pyautogui.press('esc',interval=0.1)
 

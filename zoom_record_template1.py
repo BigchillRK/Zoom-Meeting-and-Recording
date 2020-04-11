@@ -55,6 +55,20 @@ pyautogui.press('enter',interval=1)
 pyautogui.write(meet_id)
 pyautogui.press('enter',interval=1)
 
+
+###### password OPTIONAL!!! #####
+# if your meeting has a password then uncomment the code below and enter it here
+
+
+# change the value of the variable to your password
+password = 'password'
+
+#pyautogui.write(password)
+
+##### IF YOUR MEETING HAS NO PASSWORD PLEASE LEAVE THIS SECTION AS IS AND DONT UNCOMMENT
+
+
+
 ##################################################################################
 
 

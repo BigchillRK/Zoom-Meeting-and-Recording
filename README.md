@@ -18,16 +18,15 @@ Requirements
 
 Sleep Settings
 
-
-
 Warning!!!
 
-
 Your computer needs to be AWAKE and SIGNED IN for this method to work. If your computer is normally on, then this won’t be a problem. If you want the pc to wake up at some time and sign in to run this program, you need to enable these settings which I will outline. If your pc can start up from shutdown (e.g. RTC alarm) then you can also do that however I was not able to get this to work. The best way was to wake the pc from sleep and run the python script
+
 Sign In Settings
 
 
 For this program to work (you will see why as I explain the script itself) your computer needs to be in the desktop directly after waking and must skip the sign in splash screen. To do this, go to start and open up ‘Sign in options’ (just type that in). Find the setting that reads “Require sign-in”, underneath which says, “if you’ve been away, when should Windows require you to sign in again?” and change the setting to “never”. 
+
 Zoom Settings
 
 There’s some zoom settings you must alter so that the script runs smoothly, mainly settings that automatically join you into the call without clicking join with audio. You can also ensure settings to see that you join with your mic and camera muted but that is optional. Check the boxes of the settings I’ve outlined below

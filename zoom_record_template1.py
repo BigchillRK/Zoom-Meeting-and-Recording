@@ -46,7 +46,7 @@ pyautogui.press('enter',interval=0.5)
 #time delay to factor for zoom app to load up, good buffer is like 10 sec but its case specific
 time.sleep(10)
 
-#this part is important and may need to be altered to your needs according
+
 #this part simulates clicking join meeting, entering meeting id and pressing enter to join
 ##Make sure the joinButton.png file is located in the same folder as the python file or else it will not work
 ##this tells the script where to click to join the meeting
@@ -68,8 +68,10 @@ pyautogui.press('enter',interval=1)
 # change the value of the variable to your password
 password = 'password'
 
+#time.sleep(3)
+#pyautogui.press('enter',interval=1)
 #pyautogui.write(password)
-#pyautogui.press('enter',interval = 10)
+#pyautogui.press('enter',interval = 1)
 ##### IF YOUR MEETING HAS NO PASSWORD PLEASE LEAVE THIS SECTION AS IS AND DONT UNCOMMENT
 
 
